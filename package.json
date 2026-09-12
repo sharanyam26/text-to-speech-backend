@@ -1,0 +1,25 @@
+{
+  "name": "text-to-speech-backend",
+  "version": "1.0.0",
+  "description": "Node.js + Express backend for the Text-to-Speech Application. See main project spec for details.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharanyam26/text-to-speech-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sharanyam26/text-to-speech-backend/issues"
+  },
+  "homepage": "https://github.com/sharanyam26/text-to-speech-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
