@@ -4,8 +4,9 @@
   "description": "Node.js + Express backend for the Text-to-Speech Application. See main project spec for details.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sharanyam26/text-to-speech-backend.git"
@@ -21,5 +22,8 @@
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
